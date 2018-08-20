@@ -437,3 +437,7 @@ a {
     background: none; }
   input[type=radio]:checked + label {
     background: grey; } }
+
+@media (max-width: 500px) {
+  header {
+    background: none; } }

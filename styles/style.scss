@@ -238,3 +238,9 @@ a {
         background:grey;
     }
 }
+
+@media (max-width: 500px) {
+    header {
+        background: none;
+    }
+}
