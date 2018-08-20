@@ -142,7 +142,7 @@ body {
   font-size: 2rem;
   letter-spacing: 1.1px; }
 
-.menubtncontainer {
+.menu-btn-container {
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -151,13 +151,13 @@ body {
   top: 0;
   bottom: 0; }
 
-.dripwrapper {
+.drip-wrapper {
   width: 50px;
   position: absolute;
   left: 80%;
   height: 100%; }
 
-.menubtn {
+.menu-btn {
   position: absolute;
   top: 36px;
   cursor: pointer;
@@ -306,7 +306,6 @@ figure {
 input {
   margin-bottom: 25px; }
 
-/*------------------- DRIPPING EFFECTS BELOW----------------->*/
 .submit-container {
   border-top: 1px solid black;
   width: 100%;
@@ -323,6 +322,7 @@ input {
   align-items: center; }
 
 .submit-container input, .submit-container button {
+  background-color: white;
   margin-top: 25px;
   width: 200px;
   height: 40px;
@@ -368,11 +368,11 @@ a {
   display: -ms-flexbox;
   display: flex; }
 
-.nextQuestion {
+.next-question {
   background: black;
   padding: 10px; }
 
-.nextQuestion a:hover {
+.next-question a:hover {
   -webkit-transition: 0.2s all ease;
   -o-transition: 0.2s all ease;
   transition: 0.2s all ease;

@@ -85,8 +85,6 @@ input {
     margin-bottom: 25px;
 }
 
-                        /*------------------- DRIPPING EFFECTS BELOW----------------->*/
-
 .submit-container {
     border-top: 1px solid black;
     width: 100%;
@@ -97,10 +95,11 @@ input {
 }
 
 .submit-container input, .submit-container button {
-        margin-top: 25px;
-        width: 200px;
-         height: 40px;
-         display: block;
+    background-color: white;
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+    display: block;
 
 }
 
@@ -145,12 +144,12 @@ a {
     display: flex;
 }
 
-.nextQuestion {
+.next-question {
     background: black;
     padding: 10px;
 }
 
-.nextQuestion a:hover {
+.next-question a:hover {
     transition: 0.2s all ease;
     color: red;
 }
