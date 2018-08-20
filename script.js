@@ -52,30 +52,22 @@ $(function () {
 
         if (answerSum >= 2101 && answerSum <= 2800) {
             $('.results').html(killers.manson.name + killers.manson.info + killers.manson.image);
-            console.log('HAHAHA');
-        } else {
-            console.log('HUEHUEHUE');
+            console.log('it works!');
         };
 
         if (answerSum >= 2801 && answerSum <= 4200) {
             $('.results').html(killers.dahmer.name + killers.dahmer.info + killers.dahmer.image);
-            console.log('HAHAHA');
-        } else {
-            console.log('HUEHUEHUE');
+            console.log('it works!');
         };
 
         if (answerSum >= 1400 && answerSum <= 1800) {
             $('.results').html(killers.aileen.name + killers.aileen.info + killers.aileen.image);
-            console.log('HAHAHA');
-        } else {
-            console.log('HUEHUEHUE');
+            console.log('it works!');
         };
 
         if (answerSum >= 1801 && answerSum <= 2100) {
             $('.results').html(killers.zodiac.name + killers.zodiac.info + killers.zodiac.image);
-            console.log('HAHAHA');
-        } else {
-            console.log('HUEHUEHUE');
+            console.log('it works');
         };
 
        
